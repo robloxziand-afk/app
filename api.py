@@ -1,7 +1,7 @@
 # api.py
 from fastapi import FastAPI
 from pydantic import BaseModel
-from your_engine import analyze_market  # fungsi logic kamu
+from engine_api import analyze_market
 
 app = FastAPI()
 
